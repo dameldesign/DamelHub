@@ -3,7 +3,8 @@ import Header from './components/Header/Header';
 import "./assets/js/script";
 import Services from './components/Services/Services';
 import About from './components/About/About';
-import Qualities from './components/Qualities/Qualities'
+import Qualities from './components/Qualities/Qualities';
+import Feature from './components/Feature/Feature';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <About />
       <Qualities />
+      <Feature />
     </div>
   );
 }
