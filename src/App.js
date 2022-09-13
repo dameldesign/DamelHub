@@ -5,6 +5,9 @@ import Services from './components/Services/Services';
 import About from './components/About/About';
 import Qualities from './components/Qualities/Qualities';
 import Feature from './components/Feature/Feature';
+import Portfolio from './components/Portfolio/Portfolio';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <About />
       <Qualities />
       <Feature />
+      <Portfolio />
+      <Testimonials />
+      <Contact/>
     </div>
   );
 }
