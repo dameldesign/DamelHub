@@ -34,7 +34,7 @@ const services = [
     {
         id: 5,
         icon: <ImMagicWand style = {{ fill: gradient }} />,
-        title: "Grpahic Design",
+        title: "Graphic Design",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
