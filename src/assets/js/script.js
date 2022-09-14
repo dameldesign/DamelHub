@@ -7,7 +7,7 @@ window.addEventListener('resize', () => {
     }, 400);
 });
 
-var navbar = document.querySelector('nav')
+let navbar = document.querySelector('nav')
 
 window.onscroll = function() {
 
