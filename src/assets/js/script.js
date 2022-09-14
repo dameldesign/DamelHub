@@ -7,7 +7,7 @@ window.addEventListener('resize', () => {
     }, 400);
 });
 
-let navbar = document.querySelector('nav')
+var navbar = document.querySelector('nav')
 
 window.onscroll = function() {
 
@@ -17,4 +17,4 @@ window.onscroll = function() {
   } else {
     navbar.classList.remove('scrolled')
   }
-}
+};

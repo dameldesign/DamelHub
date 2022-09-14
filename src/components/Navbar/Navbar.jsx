@@ -42,13 +42,13 @@ return (
                       </ul>
                       <ul className='navbar-social flex'>
                           <li className='text-white'>
-                              <Link to = "" className='flex flex-center'><FaTwitter /></Link>
+                              <Link to = "/" className='flex flex-center'><FaTwitter /></Link>
                           </li>
                           <li className='text-white'>
-                              <Link to = "" className='flex flex-center'><FaSkype /></Link>
+                              <Link to = "/" className='flex flex-center'><FaSkype /></Link>
                           </li>
                           <li className='text-white'>
-                              <Link to = "" className='flex flex-center'><FaVimeoV /></Link>
+                              <Link to = "/" className='flex flex-center'><FaVimeoV /></Link>
                           </li>
                       </ul>
                       <div className='navbar-btns'>
@@ -56,6 +56,9 @@ return (
                       </div>
                   </div>
               </div>
+              {/* <Route exact path="/" component={() => this.renderMain()} />
+              <Route exact path="/contact" render={() => <h1>Contact Us</h1>} />
+              <Route render={() => <h1>Page not found</h1>} /> */}
           </div>
       </div>
   </nav>
