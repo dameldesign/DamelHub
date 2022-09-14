@@ -124,7 +124,7 @@ const portfolio = [
 const testimonials = [
     {
         id: 19,
-        name: "Marie Jordan",
+        name: "Cissy Ogumba",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
         image: images.customer_img_1,
         rating: 3
@@ -134,18 +134,18 @@ const testimonials = [
         name: "Ann Brown",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
         image: images.customer_img_2,
-        rating: 5
-    },
-    {
-        id: 21,
-        name: "Andrew Bill",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_3,
         rating: 2
     },
     {
+        id: 21,
+        name: "Temitayo Bakare",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        image: images.customer_img_3,
+        rating: 5
+    },
+    {
         id: 22,
-        name: "Jason Stawer",
+        name: "Jessica Ekundayo",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
         image: images.customer_img_4,
         rating: 4
@@ -170,19 +170,19 @@ const contact = [
     {
         id: 25,
         icon: <FaPhoneAlt style = {{ fill: gradient }} />,
-        info: "+425 235 712",
+        info: "+234 814 442 2709",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 26,
         icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
-        info: "solnhub@info.com",
+        info: "dameldesign23@gmail.com",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 27,
         icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "United Kingdom, New Street",
+        info: "Festac Town Ext, Gani Adams Street",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ]
