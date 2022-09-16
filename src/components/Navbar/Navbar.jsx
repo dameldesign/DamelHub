@@ -11,8 +11,20 @@ const Navbar = () => {
       setNavToggle(prevData => !prevData);
   }
 
+  // Change nav color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 500) {
+        setColor(true)
+    } else {
+        setColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeColor)
+
 return (
-  <nav className='navbar w-100 flex'>
+  <nav className={color ?'navbar w-100 flex navbar-scrolled ' :'navbar w-100 flex'}>
       <div className='container w-100'>
           <div className='navbar-content flex fw-7'>
               <div className='brand-and-toggler flex flex-between w-100'>

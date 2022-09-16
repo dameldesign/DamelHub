@@ -7,14 +7,14 @@ window.addEventListener('resize', () => {
     }, 400);
 });
 
-let navbar = document.querySelector('nav')
+// let navbar = document.querySelector('nav')
 
-window.onscroll = function() {
+// window.onscroll = function() {
 
-  // pageYOffset or scrollY
-  if (window.pageYOffset > 500) {
-    navbar.classList.add('scrolled')
-  } else {
-    navbar.classList.remove('scrolled')
-  }
-};
+//   // pageYOffset or scrollY
+//   if (window.scrollY > 500) {
+//     navbar.classList.add('scrolled')
+//   } else {
+//     navbar.classList.remove('scrolled')
+//   }
+// };
