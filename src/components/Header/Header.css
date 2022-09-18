@@ -31,7 +31,7 @@ header{
 }
 @media screen and (max-width: 400px){
     .header-title{
-        font-size: 38px;
+        font-size: 45px;
     }
     .header-content *{
         max-width: 920px;
